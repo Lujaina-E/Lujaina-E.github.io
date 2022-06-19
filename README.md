@@ -1,6 +1,4 @@
-# Personal-Site
-
-<h2>Things I learned</h2>
+#Things I Learned
 <hl>
 <ul>
       <li>CSS properties and gained familiarity</li>
