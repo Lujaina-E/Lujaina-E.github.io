@@ -10,4 +10,7 @@
       <li>navbars... was a whole ordeal and I almost gave up</li>
 </ul>
       
-      Visit <a href="https://lujaina-e.github.io">here</a>
+      
+      <h3>Visit <a href="https://lujaina-e.github.io">here</a></h3>
+      
+      
