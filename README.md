@@ -12,7 +12,8 @@
 </ul>
       
 
-      <h2> Things I Learned</h2>
+## Things I Learned 
+      <hl>
  <ul>
       <li>Responsive</li>
       <li>No pause between sections</li>
