@@ -11,7 +11,8 @@
       <h3>Visit <a href="https://lujaina-e.github.io">here</a></h3>
 </ul>
       
- #To do    
+
+      <h2> Things I Learned</h2>
  <ul>
       <li>Responsive</li>
       <li>No pause between sections</li>
