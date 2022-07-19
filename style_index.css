@@ -101,7 +101,7 @@ nav ul li a {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  z-index: 1;
+  z-index: 2;
 }
 
 header span{
@@ -263,7 +263,6 @@ content{
     width: 100%;
   }
 }
-
 
 @keyframes animated-text{
   from{width: 0;}
@@ -652,6 +651,7 @@ content{
   color: #00ad9c;
   font-weight: bold;
   transition: color 0.5s ease-in;
+  transition: color 0.5s ease-out;
 }
 
 
@@ -665,8 +665,8 @@ content{
 #academic-spacer{
   width: fit-content;
   position: relative;
-  padding-top: 20px;
-  height: 50px;
+  margin-top: 25%;
+  padding-top: 70px;
   bottom: 20px;
 }
 
@@ -674,14 +674,13 @@ content{
   width: fit-content;
   position:absolute;
   height: 300px;
-  margin-top: -150px;
+  margin-top: 260px;
 }
 
 #projects-spacer{
   width: fit-content;
-  position:relative;
-  top: 155px;
-  margin-top: -80px;
+  position:absolute;
+  margin-top: 29%;
 }
 
 #personal-spacer{
@@ -689,4 +688,24 @@ content{
   position:absolute;
   height: 300px;
   margin-top: -150px;
+}
+
+#current-spacer{
+  width: fit-content;
+  position:absolute;
+  height: 300px;
+  margin-top: 25%;
+}
+
+#mission-spacer{
+  width: fit-content;
+  position:absolute;
+  height: 300px;
+  margin-top: 13%;
+
+}
+
+.spacer-block{
+  padding: 115px;
+  position: relative;
 }
