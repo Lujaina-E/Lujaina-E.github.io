@@ -16,7 +16,5 @@
 ## To Do 
 <hl>
  <ul>
-      <li>Responsive</li>
-      <li>No pause between sections</li>
       <li>Insert projects</li>
 </ul>    
