@@ -25,6 +25,8 @@
         <li><a onclick="smoothScroll(document.getElementById('professional-spacer'))">Professional</a></li>
         <li><a  onclick="smoothScroll(document.getElementById('projects-spacer'))">Projects</a></li>
         <li><a  onclick="smoothScroll(document.getElementById('personal-spacer'))">Personal</a></li>
+        <li><a  onclick="smoothScroll(document.getElementById('current-spacer'))">Current</a></li> 
+        <li><a  onclick="smoothScroll(document.getElementById('mission-spacer'))">Mission Statements</a></li>
       </ul>
     </nav>
 
@@ -36,26 +38,23 @@
       <h1 id="typer">LUJAINA ELDELEBSHANY</h1>
       <header class="main-title">
         <h2>
-          <span class="txt-rotate" data-period="2000" data-rotate='["Software Development.", "Management.", "Design.", "Educational Equality."]'></span>
+          <span class="txt-rotate" data-period="2000" data-rotate='["Software Development.", "Management.", "Design."]'></span>
         </h2>
       </header>
       <img id="personal-photo" src="images\my_photo.png" alt="please wait while the picture loads">      
     </space>
 
-      <!--TO DO:
-      -Change reference link for the following three for lengths along page. 
-      Do this with js and not html class href bc elements don't align properly
-      -->
-
       <!-- Things I learned
       - CSS properties and gained familiarity
       -how to code in JS
+      -responsive web dev
       -that the foundations of a site need to be laid properly or it will be hard to fix things when they mess up later on
       -how to use simple API's and JS libraries
-      -photos need to be resized if you want the site speed to be devent
+      -photos need to be resized if you want the site speed to be decent
       -sizing elements properly and the importance of doing that (typer moved all elements below it)
      -->
       <content>
+        <div class="spacer-block"></div>
 
         <section id="Academic">
 
@@ -90,6 +89,8 @@
 
 
         <div id="professional-spacer"></div>
+        <div class="spacer-block"></div>
+
 
         <section class=" fade fadeOut ">
           <div id="top-jobs">      
@@ -139,11 +140,13 @@
       </section>
 
       <div id="projects-spacer"></div>
+      <div class="spacer-block"></div>
+
 
       <section class=" fade fadeOut" id="projects">
         <ul class="projects-list">
           <li id="project-element">This Website</li>
-          <p class="project-info"> Made using HTML, CSS, and JS. Learned a lot. Access <a class="project-links" href="#">here</a></p>
+          <p class="project-info"> Made using HTML, CSS, and JS. Learned responsive web design, perseverance, and JS libraries. Access <a class="project-links" href="https://lujaina-e.github.io/">here</a></p>
           <li id="project-element">Project1</li>
           <p class="project-info"> More info about this project. Learned a lot. Access <a class="project-links" href="#">here</a></p>
 
@@ -155,6 +158,8 @@
 
         </ul>
       </section>
+      <div class="spacer-block"></div>
+
 
         <section class=" fade fadeOut ">
           <div id="personal-spacer"></div>
@@ -180,6 +185,45 @@
                 <div class="caption"><span>Madina, Saudi Arabia</span></div>
               </div>
           </div>
+        </section>
+
+        <div id="current-spacer"></div>
+        <div class="spacer-block"></div>
+
+        <section class=" fade fadeOut" id="projects">
+          <ul class="current-list">
+            <li id="project-element">Highlights</li>
+            <p class="project-info">&#10024; Founder @ The Umbrella Initiative</p>
+            <p class="project-info">&#10024; Deep social media analysis intern @ School of Public Policy</p>
+            <p class="project-info">&#10024; Microsoft Learn Student Ambassador</p>
+            <p class="project-info">&#10024; Currently working on using Flask and Heroku to host applications</p>
+            <p class="project-info">&#10024; Looking to dive into the software-mental health interface</p>
+            <p class="project-info">&#10024; Fun fact! I've been featured in my university magazine for authoring and publishing my own book!</p>
+
+        </section>
+
+        <div class="spacer-block"> </div>
+
+        <div id="mission-spacer"></div>
+        <section class=" fade fadeOut" id="projects">
+          <ul class="current-list">
+            <li id="project-element">Have...</li>
+            <p class="project-info">&#9875; an organized and critical mindset</p>
+            <p class="project-info">&#9875; the confidence to start something new</p>
+
+            <li id="project-element">Care for better...</li>
+            <p class="project-info">&#9875; environmentally sustainability innovations</p>
+            <p class="project-info">&#9875; education initiatives</p>
+            <p class="project-info">&#9875; mental health support</p>
+          
+            <li id="project-element">Always be...</li>
+            <p class="project-info">&#9875; in a room where you're not the smartest</p>
+            <p class="project-info">&#9875; the reason someone smiles today</p>
+            <p class="project-info">&#9875; constantly changing</p>
+            <p class="project-info">&#9875; remembered</p>
+        </section>
+
+
       </content> 
     </main>
 
