@@ -10,7 +10,18 @@
       <li>navbars... was a whole ordeal and I almost gave up</li>
       <h3>Visit <a href="https://lujaina-e.github.io">here</a></h3>
 </ul>
+
+
+# Features for the Future
+<hl>
+<ul>
+      <li>more responsive web design</li>
+      <li>backend form</li>
+      <li>highlight more projects</li>
       
+</ul>
+
+
 
 ## To Do 
 <hl>
