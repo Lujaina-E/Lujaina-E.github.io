@@ -18,13 +18,14 @@
       <li>more responsive web design</li>
       <li>backend form</li>
       <li>highlight more projects</li>
+      <li>Doesn't work on mobile</li>
       
 </ul>
 
 
 
 ## To Do 
-<hl>
  <ul>
-      <li>Insert projects</li>
+ <li>more projects</li>
+ <li>more personal</li>
 </ul>    
