@@ -15,6 +15,7 @@
 # Features for the Future
 <hl>
 <ul>
+      <li>improving repo organization</li>
       <li>more responsive web design</li>
       <li>backend form</li>
       <li>highlight more projects</li>
