@@ -28,6 +28,7 @@ h1{
 }
 
 #top-navbar.appear{
+  z-index: 1;
   opacity: 1;
 }
 
@@ -90,18 +91,16 @@ nav ul li a {
 }
 
 #personal-photo{
-  width: 40%;
-  height: auto;
-
-  margin-left: 588px;
-  margin-top:-690px;
+  height: 100vh;
+  width:auto;
+  bottom:0px;
+  left:50%;
+  margin-top: -37.25em;
   position: absolute;
-  margin-bottom: 2rem;
-
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  z-index: 2;
+  z-index: 5;
 }
 
 header span{
@@ -138,7 +137,7 @@ footer {
 .main-title{
   background-color: transparent;
   position: static;
-  width: 200px;
+  width:0em;
   height: 150px;
   margin-left: 250px;
   font-family: 'Oswald', sans-serif;
@@ -148,11 +147,11 @@ footer {
   margin-top: 250px;
   margin-left: 200px;
   font-family: 'Oswald', sans-serif;
-  width: 200px;
-  height: 36px;
+  width: 10em;
+  height: 3em;
   display: inline-block;
   position: static; 
-  font-size: 29px;
+  font-size: 2em;
   color: #FEFEFA;
   white-space: nowrap;
   overflow: hidden;    
@@ -233,11 +232,10 @@ content{
 }
 
 #row-contact {
-
-  top: 180px;
-  left: 1140px;
+  top: 15em;
+  right: 2em;
   position: fixed;
-  width: 110px;
+  width: 8.5%;
   height: 500px;
   display: flow-root;
   justify-content: center;
@@ -637,7 +635,7 @@ content{
 }
 
 .project-info{
-  font-size: 20px;
+  font-size: 1.4em;
 }
 
 .project-links{
@@ -666,46 +664,55 @@ content{
   width: fit-content;
   position: relative;
   margin-top: 25%;
-  padding-top: 70px;
-  bottom: 20px;
+  padding-top: 13%;
 }
 
 #professional-spacer{
   width: fit-content;
   position:absolute;
-  height: 300px;
-  margin-top: 260px;
+  height: 100%;
+  margin-top: 13%;
 }
 
 #projects-spacer{
   width: fit-content;
   position:absolute;
-  margin-top: 29%;
+  height:100%;
+  margin-top: 21%;
 }
 
 #personal-spacer{
   width: fit-content;
   position:absolute;
-  height: 300px;
-  margin-top: -150px;
+  height: 100%;
+  margin-top: -18%;
 }
 
 #current-spacer{
   width: fit-content;
   position:absolute;
-  height: 300px;
-  margin-top: 25%;
+  height:100%;
+  margin-top: 15%;
 }
 
 #mission-spacer{
   width: fit-content;
   position:absolute;
-  height: 300px;
-  margin-top: 13%;
+  height:100%;
+  margin-top: 7%;
 
 }
 
 .spacer-block{
   padding: 115px;
   position: relative;
+}
+
+.main-nav{
+  font-size: 1.15em;
+  z-index: 1;
+}
+
+.academic-info{
+  font-size: 1em;
 }
